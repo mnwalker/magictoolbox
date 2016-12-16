@@ -5,6 +5,7 @@
 # * For debian/ubuntu based distros only
 # * Licensed under MIT
 # */
+# wget https://raw.githubusercontent.com/mnwalker/magictoolbox/master/LinuxInstalls/webmin.sh && chmod +x webmin.sh && ./webmin.sh
 
 echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
 

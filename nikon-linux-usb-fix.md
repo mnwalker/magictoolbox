@@ -1,4 +1,4 @@
-# Nikon d3100 not connecting via USB for data transfer on linux mint. #
+# Nikon d3100 not connecting via USB for data transfer on linux mate. #
 
 ## Syslog shows ##
 * kernel: [1592822.702088] usb 1-6.4: New USB device found, idVendor=04b0, idProduct=0427

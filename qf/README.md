@@ -1,7 +1,9 @@
-# magictoolbox
-Collection of useful and timesaving scripts, links and other bits
+# qf
+Quick functions for common tasks I use often
 
-Created by Mark Walker 2016
+Designed and tested for debian derivatives only.
+
+Created by Mark Walker 2017
 
 Licensed under MIT license
 

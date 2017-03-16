@@ -1,0 +1,28 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+	echo "qf taskname"
+else
+	task=$1
+
+	if [ "$task" == "fixterminalscroll" ]; then
+		tput rmcup
+		echo "Mousewheel should now scroll output not command history"
+	fi
+	
+	if [ "$task" == "gitdevtomaster" ]; then
+		git checkout develop
+		git pull origin develop
+		git push origin develop
+		git checkout beta
+		git merge develop
+		git push origin beta
+		git checkout master
+		git merge beta
+		git push origin master
+		git checkout develop
+		echo "Git dev to master complete"
+	fi
+fi
+
